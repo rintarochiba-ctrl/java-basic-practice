@@ -9,14 +9,14 @@ import java.util.HashMap;
 public class Kadai8 {
     public static void main(String[] args) {
         // HashMapの作成
-        HashMap<String, String> map = new HashMap<>();
+        HashMap<String, String> map = new HashMap<>();//ジェネリクスは<Key,Value>
 
-        // 要素の追加
+        // putで要素の追加
         map.put("Java", "プログラミング言語");
         map.put("Spring", "フレームワーク");
         map.put("JUnit", "テストツール");
 
-        // HashMapの出力
+        // HashMapの出力　↓引数1つで()の省略,処理1行のため{}+returnの省略
         map.entrySet().forEach(entry ->//entrySet()でHashMapの中身をセットにしてforEachで1つずつentryに格納
             System.out.println(entry.getKey() + " : " + entry.getValue())//getKeyとgetValueでキーと値を取得して出力
         );

@@ -15,8 +15,8 @@ class Box<T> { //T は汎用的な型パラメータ（Typeの略）
     }
 }
 
-public class Kadai20 {
-    public static void main(String[] args) {
+public class Kadai20 {//クラスの作成
+    public static void main(String[] args) {//mainメソッド
         Box<Integer> intBox = new Box<>(); //整数専用のBox 自動生成されたコンストラクタを呼び出す
         intBox.set(100);//setメソッドで値を格納
         System.out.println("整数: " + intBox.get());//getメソッドで値を取り出して出力
