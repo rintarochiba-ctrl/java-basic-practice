@@ -5,7 +5,7 @@ import java.util.Scanner;//Scannerクラスをインストール
 
 public class Kadai2 {//クラスの作成
     public static void toUpper(String text){//大文字に変換するメソッドを作成
-        System.out.println("大文字に変換すると:"+text.toUpperCase());//StringクラスのtoUpperCaseを使用することで大文字に変換する
+        System.out.println("大文字に変換すると:" + text.toUpperCase());//StringクラスのtoUpperCaseを使用することで大文字に変換する
     }
     public static void main(String[] args) {//mainメソッド
         Scanner scanner = new Scanner(System.in);//Scannerクラスでインスタンス化
